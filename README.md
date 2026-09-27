@@ -12,3 +12,4 @@ This project is a lightweight Flask application designed to monitor request traf
 1. Install dependencies: `pip install flask numpy`
 2. Start the server: `python app.py`
 3. Access in browser at `http://localhost:5000`
+https://ai-threat-dashboard-85od.onrender.com/
