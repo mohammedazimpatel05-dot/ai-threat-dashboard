@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Threat Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Threat & Anomaly Dashboard</h1>
+        
+        <div class="card">
+            <h2>Status Overview</h2>
+            <p>System Status: <span id="status">Loading...</span></p>
+            <p>Mean Traffic: <span id="mean">-</span> req/s</p>
+            <p>Anomalies Detected: <span id="anomalies">-</span></p>
+        </div>
+
+        <div class="card">
+            <h2>Traffic Logs</h2>
+            <pre id="log-data">Loading logs...</pre>
+        </div>
+
+        <button onclick="fetchAnalysis()">Refresh Analysis</button>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
